@@ -151,10 +151,70 @@ let rectangle = {
 //     console.log(arr[i]);
 // }
 
-if('length' in rectangle)
-{
-    console.log("Present")
-}
-else{
-    console.log("Absent");
-}
+// if('length' in rectangle)
+// {
+//     console.log("Present")
+// }
+// else{
+//     console.log("Absent");
+// }
+
+//! Object Cloning:- three type
+//! 1. Iteration ->
+//! 2. Assign ->
+//! 3. Spread ->
+
+//! 1. Object-colone -> Iteration
+// let src = {
+//     a:10,
+//     b:20,
+//     c:30
+// };
+// let dest = {};
+
+// for(let key in src){
+//     dest[key] = src[key];
+// }
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+
+//! 2. Object-colone -> Assign
+// let src = {
+//     a:10,
+//     b:20,
+//     c:30
+// }
+// let dest = Object.assign({}, src);
+// console.log(dest);
+// src.a++;
+// console.log(dest);
+
+
+
+// let src = {
+//     a:10,
+//     b:20,
+//     c:30
+// };
+// let src2 = {value: 25};
+
+// let dest = Object.assign({}, src,src2);
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+
+
+//3. Object-colone -> Spread
+let src = {
+    a:10,
+    b:20,
+    c:30
+};
+let dest = {...src};
+console.log(dest);
+
+src.a++;
+console.log(dest);
