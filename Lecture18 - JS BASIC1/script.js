@@ -21,7 +21,7 @@ const obj = {
 };
 
 // #2 - Array
-let arr = ["Sudhansh", 00];
+let arr = ["Sudhansh", 0];
 
 // Operator
 // Arithmetic
