@@ -15,7 +15,7 @@
 
 let parentDiv = document.createElement("div");
 parentDiv.addEventListener("click", function (event) {
-  if(event.target.nodeName === 'P')
+  if(event.target.nodeName === 'P') 
   {
     alert(event.target.textContent);
   }
