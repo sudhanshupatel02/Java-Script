@@ -66,6 +66,8 @@
 // document.body.appendChild(myDiv);
 
 
+// para per click karne ke bad para na print ho span hi print ho
+
 let element = document.querySelector('#wrapper');
 
 element.addEventListener('click', function(event) {
