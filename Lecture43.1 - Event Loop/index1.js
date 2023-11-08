@@ -1,4 +1,4 @@
-//! Adding 100Para
+//! Adding 100Para 
 // let t1 = performance.now();
 // for(let i =1;i <= 100;i++) 
 // {
@@ -11,7 +11,7 @@
 
 // console.log("1st way take time " + (t2-t1) + "ms");
 
-//! Optimising a bit 
+///! Optimising a bit :uper wale code ko Optimising kardiya prove kya hai
 // let t3 = performance.now();
 // let myDiv = document.createElement('div');
 
@@ -42,19 +42,20 @@
 // // console.log(`3rd way take time : ${t2-t1}ms`);
 
 
-function addPara(){
-    let para = document.createElement('p');
-    para.textContent = 'Js is Single';
-    document.body.appendChild(para);
-}
 
-function appendNewMessage(){
-    let para = document.createElement('p');
-    para.textContent = 'kya haal hai';
-    document.body.appendChild(para);
-}
-addPara();
-appendNewMessage();
+// function addPara(){
+//     let para = document.createElement('p');
+//     para.textContent = 'Js is Single';
+//     document.body.appendChild(para);
+// }
+
+// function appendNewMessage(){
+//     let para = document.createElement('p');
+//     para.textContent = 'kya haal hai';
+//     document.body.appendChild(para);
+// }
+// addPara();
+// appendNewMessage();
 
 
 // setTimeout
