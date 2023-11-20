@@ -128,14 +128,14 @@
 //*************************/
 // ! fetch API
 
-// let object = {
-//     heading : "head"
-// };
+// // let object = {
+// //     heading : "head"
+// // };
 
 // async function utility(){
 //         let content = await fetch('https://jsonplaceholder.typicode.com/todos/1')
 //         let output = await content.json();
-//         console.log(content);
+//         console.log(output);
 //     }
 //     utility();
 
